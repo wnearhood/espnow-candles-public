@@ -1,0 +1,19 @@
+# credentials and local settings - never commit
+secrets.h
+**/secrets.h
+candle.config.psd1
+
+# build output
+build/
+**/build/
+*.bin
+*.elf
+*.map
+
+# run logs / captures
+*.log
+*.done
+*.txt
+
+# slicer projects (embed printer/profile metadata) - share STLs instead
+*.3mf

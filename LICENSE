@@ -1,0 +1,36 @@
+ESP-NOW Candles - Personal Use License
+Copyright (c) 2026 wnearhood. All rights reserved except as granted below.
+
+This license covers everything in this repository: firmware, scripts,
+3D models (STL), schematics and documentation (the "Work").
+
+1. PERMITTED USE
+   You may download, build, modify and use the Work for your own personal,
+   non-commercial use, including in your own home.
+
+2. NOT PERMITTED without prior written permission from the copyright holder
+   a. Selling, renting or licensing the Work or anything built from it,
+      including kits, assembled devices, converted candles, printed parts
+      or firmware images.
+   b. Offering conversion, assembly or installation as a paid service.
+   c. Using the Work, in whole or in part, in any commercial product or
+      service.
+
+3. SHARING
+   You may share the Work or your modifications free of charge, provided
+   this LICENSE file is included unchanged and the original repository is
+   credited.
+
+4. NO WARRANTY
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+5. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OF OR
+   OTHER DEALINGS IN THE WORK. This includes damage to devices, batteries,
+   property, or injury. You build and use this at your own risk.
+
+6. Commercial licensing enquiries: open an issue on the repository.
