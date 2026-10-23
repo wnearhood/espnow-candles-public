@@ -69,7 +69,10 @@ extern "C" bool verifyRollbackLater() { return true; }
 #define FLK_BASE_FOLLOW 0.46f       // base follows this fraction of the wick's dip (0 = steady, 1 = same depth)
                                     // 0.46: wick at 0.35 -> base ~0.70; gust 0.25 -> base ~0.66
 
-// ---- remote (stock + SwitchBot, NEC addr 0x80, captured 2026-10-11 via Bond) ----
+// ---- remote: THESE CODES MATCH MY CANDLES' REMOTE (NEC addr 0x80). Yours will differ. ----
+// To get yours: open the serial monitor (115200), press each button, copy addr/cmd from the "IR ..." lines.
+// Unknown codes are ignored, so a mismatched table = a remote that silently does nothing.
+// (stock + SwitchBot remote, captured 2026-10-11 via Bond)
 enum IrAct : uint8_t { A_OFF, A_ON, A_BRIGHTER, A_DIMMER, A_FLICKER, A_STEADY, A_TIMER };
 struct IrMap { uint16_t addr; uint8_t cmd; uint8_t act; uint8_t arg; };
 static const IrMap IR_MAP[] = {
